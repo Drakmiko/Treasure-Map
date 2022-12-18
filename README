@@ -1,0 +1,17 @@
+This project represents is one of my first project to get familiar with strings 
+and the random module.
+
+A treasure map string represents a rectangular grid comprised of rows and columns.
+There are two-dimensional maps and three dimensional maps.
+A treasure map can be of any rectangular size (not necessarily 3x3 nor square), and can contain different
+symbols. There are movement symbols, an empty symbol, a treasure symbol and a breadcrumb symbol.
+Our goal when given a treasure map is to follow the trail in it, character by character, and the symbols
+will tell us how to follow the trail.
+The empty symbol means to continue going in the same direction that
+we were going in when we got to this character.
+The treasure symbol operates the same as the empty symbol, except
+that we also add one to our count of the treasure we have found while 
+following the trail.
+Finally, the breadcrumb symbol is a character that we will put in the
+map: as we follow the trail, we will replace movement symbols by this 
+symbol after we visit them, to indicate that we have been there.
