@@ -1,5 +1,5 @@
 This project represents is one of my first project to get familiar with strings 
-and the random module.
+and the random module in Python
 
 A treasure map string represents a rectangular grid comprised of rows and columns.
 There are two-dimensional maps and three dimensional maps.
